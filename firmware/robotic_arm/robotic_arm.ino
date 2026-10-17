@@ -1,7 +1,7 @@
 /*
  * Bluetooth-Controlled Robotic Arm (ESP32)
  * Engineering Design and Tools, Lewis University, Spring 2026
- * Authors: Juan Jose Castro, Michael Baron
+ * Author: Juan Jose Castro (team project)
  *
  * Controls a 3-servo pantograph-style arm over Classic Bluetooth serial
  * (device name "Gripper") or USB serial.

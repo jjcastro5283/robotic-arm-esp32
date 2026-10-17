@@ -65,7 +65,7 @@ The two arm servos are linked mechanically, so neither one can move without affe
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software) and the **ESP32 board package** (Boards Manager → "esp32" by Espressif).
 2. Install the **ESP32Servo** library (Library Manager).
 3. Open `firmware/robotic_arm/robotic_arm.ino`, select your ESP32 board and port, and upload.
-4. Power the servos from the external supply (connect its ground to the ESP32 ground).
+4. Power the servos from the external supply.
 5. Pair your computer with the Bluetooth device **`Gripper`** and open a serial terminal on its port. The Arduino Serial Monitor or PuTTY both work. Type the command keys.
 
 ## Repository structure
@@ -86,10 +86,9 @@ The STEP file opens in Onshape, Fusion 360, SolidWorks, FreeCAD, or any online S
 - Wrote the first version of the firmware.
 - Debugged and refined the firmware and hardware with my teammate until the arm worked reliably.
 
-## Authors
+## Author
 
-- **Juan Jose Castro**: CAD design, firmware, testing
-- **Michael Baron**: firmware, testing
+**Juan Jose Castro**: CAD design, firmware, testing. Developed as a team project.
 
 ## License
 
